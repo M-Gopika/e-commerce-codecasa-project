@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> GrabnGo</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>    
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/watermelon.jpg" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/onion.jpg" alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/egg.jpg" alt="">
+                <div class="content">
+                    <h3>Egg</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty : 1</span>
+                </div>
+            </div>
+            <div class="total"> total : $19.69/- </div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email"  placeholder="your email" class="box">
+            <input type="password"  placeholder="your password" class="box">
+            <p>forget your password? <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>start your <span>seamless</span> shopping journey</h3>
+        <p>Browse, click, and enjoy a hassle-free shopping experience with GrabnGo. Start your order today and let us bring the grocery store to your doorstep.
+           Thank you for choosing GrabnGo. We look forward to serving you!</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+</section>
+
+<section class="features" id="features">
+
+    <h1 class="heading">our <span>features</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/fruit basket-pana.png" alt="">
+            <h3>fresh and organic</h3>
+            <p>At GrabnGo, we pride ourselves on offering a diverse array of fresh and organic products. From vibrant, locally-sourced fruits and vegetables to wholesome organic pantry staples, we ensure that your family gets the best quality ingredients for a healthy lifestyle.</p>
+            <a href="#" class="btn">read more</a>
+        </div> 
+
+        <div class="box">
+            <img src="images/Take Away-pana.png" alt="">
+            <h3>free delivery</h3>
+            <p>Say goodbye to delivery fees! At GrabnGo, we believe in making your shopping experience as convenient and cost-effective as possible. Enjoy free delivery on all orders, ensuring that you not only save time but also money.We are dedicated to providing exceptional service.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/E-Wallet-pana.png" alt="">
+            <h3>easy payments</h3>
+            <p>Making your purchase at GrabnGo is a breeze with our hassle-free payment options. Choose from a variety of secure and convenient payment methods to suit your preferences. Whether you prefer credit cards, digital wallets, or other online payment solutions. </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+
+<section class="products" id="products">
+
+    <h1 class="heading">our <span>products</span></h1>
+
+    <div class=" swiper product-slider ">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/orange.jpg" alt=""> 
+                <h3>fresh orange</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/tomato.jpg" alt=""> 
+                <h3>fresh tomato</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/meat.avif" alt=""> 
+                <h3>fresh meat</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/potato.jpg" alt=""> 
+                <h3>fresh potato</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/onion.jpg" alt=""> 
+                <h3>fresh onion</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/banana.jpg" alt=""> 
+                <h3>fresh banana</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/cabbage.jpg" alt=""> 
+                <h3>fresh cabbage</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/lemon.jpg" alt=""> 
+                <h3>fresh lemon</h3>
+                <div class="price">$4.99/- - 10.99/-</div>
+                 <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                 </div>
+                 <a href="#" class="btn">add to cart</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="categories" id="categories">
+
+    <h1 class="heading">product <span>categories</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/vegetaables.jpg" alt="">
+            <h3>vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/fruits.avif" alt="">
+            <h3>fruits</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/diary.jpg" alt="">
+            <h3>diary products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/meats.jpg" alt="">
+            <h3>meat</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer <span>review</span></h1>
+
+    <div class="swiper review-slider">
+
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide box">
+            <img src="images/b1.png" alt="">
+            <p>Absolutely love shopping at GrabnGo! The fresh produce is top-notch, and I appreciate the variety of organic options. The free delivery is a game-changer for my busy schedule. Highly recommend!</p>
+            <h3>john</h3>
+            <div class="stars">
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="swiper-slide box">
+            <img src="images/c1.webp" alt="">
+            <p>I'm a loyal customer because of the consistently fresh produce and the fantastic customer service. The website is user-friendly, and the free delivery makes my life so much easier. Highly satisfied with my overall experience.</p>
+            <h3>sarah</h3>
+            <div class="stars">
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class=" swiper-slide box">
+            <img src="images/c2.webp" alt="">
+            <p>GrabnGo has become my go-to for weekly groceries. The variety is excellent, and I appreciate the effort they put into offering organic and fresh choices. Free delivery is a huge bonus. I encounter minor inventory discrepancies, but they are usually resolved.</p>
+            <h3>Emily</h3>
+            <div class="stars">
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star"></i>
+                <i class=" fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading">our <span>blogs</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/v1.avif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>1st jan,2024</a>
+                </div>
+                <h3>A Journey to Health: Embracing Fresh and Organic Produce</h3>
+                <p>In this blog post, we follow Sarah, a health-conscious individual, as she shares her personal journey towards a healthier lifestyle through incorporating fresh and organic vegetables and fruits into her diet. Sarah discusses the positive impact on her overall well-being, the flavors that have become her favorites, and some go-to recipes that have become staples in her kitchen</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="images/v2.avif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>1st jan,2024</a>
+                </div>
+                <h3>Organic Living: John's Transformation Story</h3>
+                <p>Join John in this blog post as he reflects on his decision to transition to an organic lifestyle. From the initial skepticism to the remarkable changes he experienced in his energy levels and digestion, John delves into the benefits of choosing organic vegetables and fruits. He provides insights into how this shift has not only influenced his health but also his mindset towards sustainable living.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        
+        <div class="box">
+            <img src="images/v3.avif" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-calendar"></i>1st jan,2024</a>
+                </div>
+                <h3>Family Table: Fresh and Organic Feasts with the Thompsons</h3>
+                <p>Meet the Thompson family and discover how they have made fresh and organic vegetables and fruits a central part of their family meals. In this blog post, the Thompsons share their favorite seasonal recipes, tips for involving kids in the kitchen, and the joy of knowing they are nourishing their family with the best nature has to offer.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+        <div class="box">
+            <h3>GrabnGo <i class="fas fa-shopping-basket"></i></h3>
+            <p>GrabnGo is dedicated to providing you with the freshest produce and the best shopping experience. We believe in quality, convenience, and community. Thank you for choosing us as your trusted grocery store.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+           <a href="#" class="links"> <i class="fas fa-phone"></i> +123-789-4560</a>
+           <a href="#" class="links"> <i class="fas fa-phone"></i> +111-333-6668</a>
+           <a href="#" class="links"> <i class="fas fa-envelope"></i> gopika@gmail.com</a>
+           <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Coimbatore,India</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+           <a href="#" class="links"> <i class="fas fa-arrow-right"></i>home</a>
+           <a href="#" class="links"> <i class="fas fa-arrow-right"></i>features</a>
+           <a href="#" class="links"> <i class="fas fa-arrow-right"></i>products</a>
+           <a href="#" class="links"> <i class="fas fa-arrow-right"></i>categories</a>
+           <a href="#" class="links"> <i class="fas fa-arrow-right"></i>reviews</a>
+           <a href="#" class="links"> <i class="fas fa-arrow-right"></i>blogs</a>
+           
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+        </div>
+    </div>
+
+    <div class="credit"> created by <span>gopika</span> |all rights reserved</div>
+</section>
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
